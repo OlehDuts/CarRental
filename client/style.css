@@ -1,0 +1,47 @@
+.logoCont {
+	height:  40px;
+	max-width: 200px;
+	float: left;
+}
+.logoHeader img {
+	height: 100%;
+	
+}
+.singInForm {
+	width: 200px;
+	float: right;
+}
+header {
+	padding: 20px 0;
+	border-top: 4px solid #1B65A4;
+	border-bottom: 1px solid #E6E6E6;
+}
+.imageMaine {
+	height: 400px;
+	background-image: url(/img/B_3.jpg);
+	box-shadow: inset 0 3px 5px #777;
+}
+.textOnImage {
+	max-width: 500px;
+    margin: 0 auto;
+    padding-top: 25px;
+    color: white;
+    text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #000, 
+    2px 1px 1px #ccc, 1px 2px 1px #000,
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+    text-align: center;
+    box-shadow: 0 -3px 5px #777;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+.text-muted {
+    color: #777;
+}
