@@ -15,6 +15,7 @@ header {
 	padding: 20px 0;
 	border-top: 4px solid #1B65A4;
 	border-bottom: 1px solid #E6E6E6;
+    background-color: #eee;
 }
 .imageMaine {
 	height: 400px;
@@ -44,4 +45,12 @@ header {
 }
 .text-muted {
     color: #777;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+.img-circle {
+    border-radius: 25%;
 }
