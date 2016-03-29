@@ -3,6 +3,9 @@
 	max-width: 200px;
 	float: left;
 }
+.singInForm {
+    float: right;
+}
 .logoHeader img {
 	height: 100%;
 	

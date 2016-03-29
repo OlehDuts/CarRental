@@ -14,11 +14,10 @@
         	</form>
           		
             		<a href="{{pathFor route='aboutUs'}}">About Us</a>
-          		
-  		<div class="singInForm" id="singInBtn">
-  			<button class="btn btn-sm btn-primary btn-block" type="submit">Sing In
-  			</button>
-   		</div>
+
+          <div class="singInForm">
+          {{> loginButtons}}
+          </div>
   	</div>
   </header>
 
