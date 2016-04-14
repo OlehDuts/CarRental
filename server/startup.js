@@ -4,15 +4,15 @@ if (Cars.find().count() === 0 && Cities.find().count() === 0) {
     brand: 'Mercedes',
     model: 'G500',
     year: '2015',
-    city: 'Lviv',
-    user_id: []
+    city: ['Lviv'],
+    userName: '111'
   });
 
   Cars.insert({
-    brand: 'Chrysle',
+    brand: 'Chrysler',
     model: '300',
     year: '2013',
-    city: 'Lviv',
+    city: ['Kiev', 'Lviv'],
      user_id: []
   });
 
@@ -20,13 +20,13 @@ if (Cars.find().count() === 0 && Cities.find().count() === 0) {
     brand: 'Honda',
     model: 'Accord',
     year: '2014',
-    city: 'Kiev',
+    city: ['Rivne','Kiev'],
     user_id: []
   });
 
   Cities.insert({
     '_id': 'Lviv',
-    'cars': [Cars.findOne({brand: 'Mercedes'})._id],
+    'cars': [],
     city: 'Lviv',
     });
   Cities.insert({

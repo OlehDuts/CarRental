@@ -13,12 +13,14 @@
           		<button type="submit" class="btn btn-default">Search</button>
         	</form>
           		
-            		<a href="{{pathFor route='aboutUs'}}">Add Car</a>
-        
+            		<a href="{{pathFor route='aboutUs'}}">About US</a>
+      
           <div class="singInForm">
           
           {{> loginButtons}}
-
+              {{#if currentUser}}
+                <a href="{{pathFor route='usersPage'}}">User Profile</a>
+              {{/if}}
           </div>
   	</div>
   </header>
