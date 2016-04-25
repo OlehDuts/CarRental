@@ -11,12 +11,10 @@ Template.home.events({
 Template.home.helpers({
     cars: function(){
 		if (Session.get('cityFilter') === '' || Session.get('cityFilter') === undefined) {
-  			return Cars.find();
+  		return Cars.find();
 		} 
-		else {
-    		return Cars.find({
-      		city: Session.get('cityFilter'),
-    		});
+		else if (Cities.find({city: (Session.get('cityFilter'))})) {
+      return Cars.find({city: Cities.findOne({city: (Session.get('cityFilter'))})._id});
+      }
 		}
-	}
 });
